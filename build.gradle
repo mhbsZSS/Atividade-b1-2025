@@ -1,0 +1,17 @@
+plugins{
+    id 'java'
+    id 'application'
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compileOnly 'org.projectlombok:lombok:1.18.40'
+    annotationProcessor 'org.projectlombok:lombok:1.18.40'
+}
+
+application {
+    mainClass = 'atividade.Principal'
+}
